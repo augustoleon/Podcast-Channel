@@ -1,0 +1,39 @@
+section.theme div.tittle-3 h3 { 
+    font-size: var(--h-font-size) ;
+    font-family: var(--h-font-family) ;
+    color: var(--text-color) ;
+
+    margin: 48px 0 37px 16px;
+}
+
+section.theme div.icon { 
+       
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+       
+}
+
+section.theme div.icon div {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    
+    margin: 28px 0;
+}
+
+section.theme div.icon:nth-child(2){
+    text-align: center;
+}
+
+section.theme div.icon div p { 
+    font-family: var(--h2-font-family);
+    font-size: var(--h2-font-size);
+    color: var(--text-color);
+}
+
+section.theme div.icon div img { 
+    margin-bottom: 13px;
+}
+
+

@@ -1,0 +1,47 @@
+div.ours { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div div.phone img { 
+    width: 320px;
+    height: 519px;
+    margin-top: -110px;
+
+    position: relative;
+    z-index:1 ;
+
+}
+
+div.phone {     
+    width: 320px;
+    height: 400px; 
+}
+
+
+/* DE DONDE VENIMOS */
+
+
+section.where { 
+    margin: 27px 16px 0;
+}
+
+section.where .tittle-2 {
+    
+    color: var(--text-color);
+    font-size: var(--h-font-size);
+    font-family: var(--h-font-family);
+
+
+}
+
+.block-2 { 
+    display: block;
+}
+
+section.where .tittle-2 ~ p { 
+    margin-top: 8px;
+    font-size: var(--p-font-size);
+    font-family: var(--p-font-family);
+}

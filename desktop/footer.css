@@ -1,0 +1,33 @@
+footer div.container-footer { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+footer div.container-footer div p { 
+    margin-left: 100px;
+    font-size: var(--p-font-size);
+    font-family: var(--p-font-family);
+    color: var(--text-color);
+    width: 269px;
+    
+}
+
+footer div.container-footer div.networks{ 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 232px;
+    margin-right: 100px;
+
+}
+
+
+footer div.container-footer div.networks div a { 
+    line-height: 28px;
+
+}
+
+

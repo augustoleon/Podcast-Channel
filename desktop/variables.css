@@ -1,0 +1,28 @@
+:root { 
+
+    --text-color: #060A24;
+    /* H1 */
+    --h-font-size: 64px;
+    --h-font-family: 'IBM Plex Sans', sans-serif;
+    /* H2 */
+    --h2-font-size: 48px;
+    --h2-font-family: 'IBM Plex Sans-SemiBold', sans-serif;
+    /* H3 */
+    --h3-font-size: 24px;
+    --h3-font-family: 'IBM Plex Sans-SemiBold', sans-serif;
+    /* P */
+    --p-font-size: 16px;
+    --p-font-family: 'IBM Plex Mono', monospace;
+    /* Button */
+    --button-font-size: 18px; 
+    --button-font-family: 'IBM Plex Mono-Medium', monospace;
+    --button-background: #00F3BB ; 
+    /* Button:hover */
+    --hover-button: linear-gradient(to left, rgba(0,0,254,1), rgba(0,240,184,1));
+
+    /* Background */
+    --background: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+
+    /* nav */
+    --nav-background: rgba(0,0,236,1);
+}

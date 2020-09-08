@@ -1,0 +1,56 @@
+section.hero .container {
+    margin: 32px 16px;
+        
+}
+
+section.hero div.container .tittle  {    
+    font-family: var(--h-font-family);
+    font-size: var(--h-font-size);
+    color: var(--text-color);
+    
+}
+
+.block { 
+    display: block;
+}
+section.hero div.container p {
+    margin-top: 16px;
+
+    font-family: var(--p-font-family);
+    font-size: var(--p-font-size);
+}
+
+section.hero div.container span.desktop { 
+    display: none;
+
+}
+
+/* button */
+
+section.hero div.button { 
+    height: 48px;
+    margin: 32px  16px;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--button-background);
+    font-size: var(--button-font-size);
+    font-family: var(--button-font-family);
+}
+
+section.hero div.button:active { 
+    background-color: rgb(7, 207, 161);
+}
+
+a { 
+    width: 100%;
+    height: inherit;    
+    text-align: center;
+    line-height: 48px;
+    text-decoration: none;
+    color: var(--text-color);
+}
+

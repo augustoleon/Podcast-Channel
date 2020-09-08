@@ -1,0 +1,44 @@
+main section.episodios { 
+    width: 100%;
+    height: 960px;
+
+    clip-path: polygon(0 11%, 100% 0, 100% 87%, 0% 100%);
+}
+
+main section.episodios h3 {
+    font-size: var(--h2-font-size);
+    font-family: var(--h2-font-family);
+
+    margin-left: 14%;
+    margin-top: 9%;
+
+}
+
+main section.episodios div.channels iframe{
+    width: 40.6%; 
+    height: 5,9%;    
+}
+/* iframe:hover */
+main section.episodios div.channels iframe:hover { 
+    transform: translate(3px, 3px);
+}
+/* fin iframe:hover */
+
+
+main section.episodios div.channels iframe:nth-child(3){
+    margin-top: 2%;
+}
+main section.episodios div.channels iframe:nth-child(4){
+    margin-top: 2%;
+    margin-left: -7.5%;
+}
+main section.episodios div.channels iframe:nth-child(2){
+    margin-left: -7.5%;
+}
+
+main section.episodios div.channels { 
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}

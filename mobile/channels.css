@@ -1,0 +1,32 @@
+main section.episodios  { 
+    width: 100%;
+    height: 1274px;
+    padding: 24px 16px 0px;
+
+    background-image: var(--background);
+    clip-path: polygon(0 4%, 100% 0, 100% 96%, 0% 100%);       
+
+}
+
+
+
+main section.episodios h3 { 
+    margin: 50px 0 21px 0;
+    font-size: var(--h-font-size);
+    font-family: var(--h-font-family);
+    color: rgba(255,255,255,1);
+    
+}
+
+/* IFRAME */
+
+main section.episodios div.channels iframe {
+    margin-bottom: 11px;
+    width: 100%;
+    height: 232px;
+    border: 0px;
+    background-color: transparent;
+}
+
+
+

@@ -1,0 +1,39 @@
+section.latest-news { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    clip-path: polygon(0 25%, 100% 0, 100% 100%, 0% 100%);
+
+    height: 518PX;
+}
+
+section.latest-news div.ultimas { 
+    width: 792px;
+    height: 62px;
+    margin-top: 83px;
+
+}
+
+section.latest-news div.ultimas h3 { 
+    position: relative;
+    font-family: var(--h2-font-family);
+    font-size: var(--h2-font-size);
+
+}
+
+/* Button */
+
+section.latest-news div.button-2 { 
+    width: 345px;
+}
+
+section.latest-news div.button-2 a { 
+    font-size: var(--button-font-size);
+    font-family: var(--button-font-family);
+}
+
+section.latest-news div.button-2 a:hover { 
+    background-image: var(--hover-button);
+    color: white;
+    box-shadow: 1px 1px 2px darkblue;
+}

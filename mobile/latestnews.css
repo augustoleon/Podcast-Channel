@@ -1,0 +1,52 @@
+section.latest-news { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 341px;
+    padding: 0px 16px;
+
+
+    background-image: var(--background);
+    clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);    
+
+}
+
+section.latest-news div h3 { 
+    font-size: var(--h-font-size);
+    font-family: var(--h-font-family);
+    color: white;
+    
+}
+
+section.latest-news div:first-child { 
+    text-align: center;
+    width:288px;
+}
+
+/* button */
+
+section.latest-news div.button-2 { 
+    width: 100%;
+    height: 48px;
+    margin-top: 36px;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--button-background);
+    font-size: var(--button-font-size);
+    font-family: var(--button-font-family);
+}
+
+section.latest-news div.button-2:active { 
+    background-color: rgb(7, 207, 161);
+}
+
+section.latest-news div.button-2 a { 
+    text-decoration: none;
+    color: var(--text-color);
+}
